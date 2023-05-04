@@ -138,20 +138,6 @@ function laTienditaDeLeo(productosTienda) {
     
         })
         
-       /*  const accionBotones = () =>{
-            let botonAgregar = document.getElementById("btnAdd")
-            let botonEliminar = document.querySelector("btnDelete")
-
-            botonAgregar.forEach(btn => {
-                btn.addEventListener("click", ()=>{})
-                console.log("...Agregando")
-            })
-            botonEliminar.forEach(btn => {
-                btn.addEventListener("click", ()=>{})
-                console.log("...Agregando")
-            })
-        } */
-
         //Calculadora de total del carrito
         const total = carrito.reduce((acc, elem) => acc + elem.subtotal, 0)
         carritoDOM.innerHTML += `

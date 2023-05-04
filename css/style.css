@@ -18,9 +18,7 @@ hr{
 #barraSuperior a{
     color: rgb(255, 255, 255);
 }
-/* #contenedorProductos{
-  margin-top: 100px;
-} */
+
 .filtrado-Categorias{
   font-size: 30px;
   font-weight: 100;
@@ -29,11 +27,6 @@ hr{
 }
 #carrito{
   margin-top: 100px;
-}
-
-.filtradoChecks{
-    align-items:end !important;
-    justify-content: right !important;
 }
 
 #contenedorCard {
@@ -97,7 +90,6 @@ hr{
   background-color: #212529;
   color: white;
   padding: 6px;
-  
   font-size: 25px;
 }
 #btnVerCarrito{
@@ -110,11 +102,4 @@ hr{
   width: 61px;
   height: 61px;
 }
-.borrar-producto {
-  background-color: rgb(255, 0, 0);
-  border-radius: 5px;
-  padding: 5px 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: lighter;
-}
+
